@@ -1,0 +1,217 @@
+.table
+{
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+table
+{
+  width: 80%;
+  padding: 2rem;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  border-radius: .8rem;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+th,
+td
+{
+  padding: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+
+thead th
+{
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(165, 42, 42, 0.796);
+  font-size: 24px;
+}
+
+tbody tr:nth-child(even)
+{
+  background-color: #0000000b;
+}
+
+tbody tr:hover
+{
+  background-color: #ada5f7d0;
+  backdrop-filter: blur(7px);
+}
+
+.table-header
+{
+  width: 70%;
+  height: 10%;
+  padding: .8rem 1rem;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+  place-items: center;
+  gap: 5%;
+}
+
+.table-header button
+{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.table-header .table-title
+{
+  font-size: 35px;
+  text-align: center;
+  padding: 15px;
+}
+
+.person-dropdown
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+
+.person-dropdown h2
+{
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.table-body
+{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  max-height: calc(89% - .8rem);
+  margin: .8rem auto;
+  border-radius: .6rem;
+  overflow: auto;
+}
+
+.table-body::-webkit-scrollbar
+{
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.table-body::-webkit-scrollbar-thumb
+{
+  border-radius: 0.5rem;
+  background-color: #0004;
+  visibility: hidden;
+}
+
+.table-body:hover::-webkit-scrollbar-thumb
+{
+  visibility: visible;
+}
+
+.name-cell,
+.time-cell
+{
+  width: 200px;
+}
+
+.person-cell
+{
+  width: 400px;
+}
+
+.memo-cell
+{
+  width: 900px;
+  padding: 0 40px;
+  font-size: 18px;
+  text-align: start;
+}
+
+.action-cell
+{
+  text-align: center;
+  width: 400px;
+}
+
+.action-cell button
+{
+
+  display: block;
+  margin: 10px;
+}
+
+.order-cell
+{
+  text-align: center;
+  width: 50px;
+}
+
+.btn
+{
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-edit
+{
+  background-color: #008cba;
+}
+
+.btn-delete
+{
+  background-color: #f44336;
+}
+
+.btn-view
+{
+  background-color: #11700bb9;
+}
+
+.btn-main
+{
+  background-color: brown;
+  backdrop-filter: blur(1px);
+  color: whitesmoke;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.custom-checkbox
+{
+  width: 50px;
+  height: 50px;
+}
+
+.show-order
+{
+  background-color: lightgreen;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,41 @@
+.completed
+{
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.completed-title
+{
+  margin-top: 100px;
+  width: 2000px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.completed-title h1
+{
+  font-size: 90px;
+  font-weight: bold;
+  color: brown;
+}
+
+.completed-btn
+{
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.completed-btn button
+{
+  font-size: 40px;
+  padding: 20px;
+  background-color: brown;
+}

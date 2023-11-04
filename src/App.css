@@ -1,0 +1,116 @@
+/************ Custom Font ************/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+/************ Default Css ************/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body
+{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: #fff;
+  font-family: 'Zen Kurenaido', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul
+{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+  font-family: 'Zen Kurenaido', sans-serif !important;
+  font-weight: bold;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+img
+{
+  width: 100%;
+  height: auto;
+}
+
+button
+{
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus
+{
+  outline: none;
+}
+
+@media (min-width:1700px)
+{
+  main .container
+  {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+p.success
+{
+  color: green;
+}
+
+p.danger
+{
+  color: red;
+}
+
+.custom-toast
+{
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px;
+  width: 500px;
+}
+
+.Toastify__close-button
+{
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
