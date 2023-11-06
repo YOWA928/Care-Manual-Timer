@@ -19,13 +19,18 @@
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://YOWA928.github.io/https://github.com/YOWA928/CareManualTimer.git/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npm run json-server & npx webpack serve --config webpack.config.js",
-    "json-server": "json-server --watch db.json --port 3001"
+    "json-server": "json-server --watch db.json --port 3001",
+    "rm": "if exist docs (rmdir /s /q docs) else (exit 0)",
+    "mv": "move build docs",
+    "git": "git add . && git commit -m \"Commit message\" && git push origin master",
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
     "extends": [

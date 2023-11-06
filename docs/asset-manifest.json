@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/https://github.com/YOWA928/CareManualTimer.git/static/css/main.b1976bc1.css",
+    "main.js": "/https://github.com/YOWA928/CareManualTimer.git/static/js/main.5c2ff8bb.js",
+    "static/js/787.5a9d9cc2.chunk.js": "/https://github.com/YOWA928/CareManualTimer.git/static/js/787.5a9d9cc2.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/https://github.com/YOWA928/CareManualTimer.git/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/https://github.com/YOWA928/CareManualTimer.git/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/Countdown03-4.mp3": "/https://github.com/YOWA928/CareManualTimer.git/static/media/Countdown03-4.9b39eba24efdf33d8b5f.mp3",
+    "index.html": "/https://github.com/YOWA928/CareManualTimer.git/index.html",
+    "main.b1976bc1.css.map": "/https://github.com/YOWA928/CareManualTimer.git/static/css/main.b1976bc1.css.map",
+    "main.5c2ff8bb.js.map": "/https://github.com/YOWA928/CareManualTimer.git/static/js/main.5c2ff8bb.js.map",
+    "787.5a9d9cc2.chunk.js.map": "/https://github.com/YOWA928/CareManualTimer.git/static/js/787.5a9d9cc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1976bc1.css",
+    "static/js/main.5c2ff8bb.js"
+  ]
+}
