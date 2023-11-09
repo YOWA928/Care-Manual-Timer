@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Care-Manual-Timer/static/css/main.8eaaceea.css",
+    "main.js": "/Care-Manual-Timer/static/js/main.3bf5f68a.js",
+    "static/js/787.5a9d9cc2.chunk.js": "/Care-Manual-Timer/static/js/787.5a9d9cc2.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Care-Manual-Timer/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/Care-Manual-Timer/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/Countdown03-4.mp3": "/Care-Manual-Timer/static/media/Countdown03-4.9b39eba24efdf33d8b5f.mp3",
+    "index.html": "/Care-Manual-Timer/index.html",
+    "main.8eaaceea.css.map": "/Care-Manual-Timer/static/css/main.8eaaceea.css.map",
+    "main.3bf5f68a.js.map": "/Care-Manual-Timer/static/js/main.3bf5f68a.js.map",
+    "787.5a9d9cc2.chunk.js.map": "/Care-Manual-Timer/static/js/787.5a9d9cc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eaaceea.css",
+    "static/js/main.3bf5f68a.js"
+  ]
+}
