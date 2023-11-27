@@ -17,7 +17,7 @@ const Header = () => {
       </div>
 
       <nav>
-        <Link to="/Care-Manual-Timer">
+        <Link to="/Care-Manual-Timer/">
           <p className={ `${activeTab === "Home" ? "active" : ""}` }
             onClick={ () => setActiveTab("Home") }
           >
