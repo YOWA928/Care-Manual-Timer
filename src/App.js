@@ -34,7 +34,7 @@ function App() {
             style={ { width: '500px', fontSize: '24px', padding: '24px', textAlign: "center" } }
           />
           <Routes>
-            <Route path={ '/Care-Manual-Timer' } element={ <Home setSelectedTasksData={ setSelectedTasksData }></Home> }></Route>
+            <Route path={ '/Care-Manual-Timer/' } element={ <Home setSelectedTasksData={ setSelectedTasksData }></Home> }></Route>
             <Route path={ '/add' } element={ <AddEdit></AddEdit> }></Route>
             <Route path={ '/update/:id' } element={ <AddEdit></AddEdit> }></Route>
             <Route path={ '/view/:id' } element={ <View></View> }></Route>
